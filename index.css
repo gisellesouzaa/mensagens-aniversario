@@ -10,7 +10,7 @@ body {
   font-family: sans-serif;
 }
   
-#conteiner {
+#conteiner, h3 {
   margin-top: 100px;
   width: 80%;
   max-width: 600px;
@@ -60,5 +60,28 @@ button:hover {
   padding: 50px;
   height: auto;
   border-radius: 25px;
+  transition: transform 0.5s;
 }
 
+#mensagem:hover{
+  transform: scale(1.05);
+}
+
+.tooltip{
+  position: relative;
+  top: 20px;
+  color:rgb(64, 49, 82);
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.hide{
+  display: none;
+}
+
+.container-msg:hover .tooltip{
+  visibility: visible;
+  bottom: 50px;
+  opacity: 1;
+}

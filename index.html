@@ -13,16 +13,19 @@
   </head>
 
   <body>
-    <div id="conteiner">
+    <main id="conteiner">
       <h1>Mensagens de aniversário</h1>
       <p>Esse site te ajuda a sortear mensagens especiais de aniversário.</p>
       <img src="original.png">
-      <button id="buttonMensagem" onclick="gerarMensagem()">Clique aqui para gerar nova mensagem
-</button>
-      
-      <h3 id="mensagem">
-        
-      </h3>
+      <button id="buttonMensagem" onclick="gerarMensagem()">
+        Clique aqui para gerar a mensagem
+      </button>
+    </main>
+
+    <div id="container-msg" onclick="copiar()" class="container-msg hide">
+      <h3 id="mensagem"></h3>
+      <span class="tooltip">Clique na mensagem para copiar☝🏻</span>
+    </div> 
 
       <!-- <button id="copiar">Copiar</button> -->
       

@@ -1,4 +1,6 @@
-const elementoMensagem = document.querySelector("#mensagem")
+const elementoMensagem = document.querySelector("#mensagem");
+let containerMensagem = document.querySelector("#container-msg");
+let novaMensagem = "";
 const textos = [
   "Tenha um feliz aniversário cheio de sorrisos e gargalhadas, repleto de paz, amor e muita alegria. Parabéns por mais um ano de vida ❤️",
   "Parabéns e muitas felicidades! Este é seu dia especial e por isso deve festejar com alegria. Espero que receba muito carinho homenagens e surpresas boas. 😘❤️",
@@ -19,15 +21,23 @@ const textos = [
   " Feliz aniversário! Hoje é um dia de muita alegria e festa, pois o você completa mais um ano de vida. Que a felicidade, a saúde, a paz e o sucesso façam sempre parte dos seus dias.",
   "Hoje e sempre sorria para a vida, alegre-se com ela, pois assim ela irá lhe retribuir com muitas coisas boas. Feliz aniversário!",
   "Agradeço a Deus por você fazer parte da minha vida e peço para ele te cobrir de saúde, amor, prosperidade e muita felicidade. Feliz aniversário!",
-  ] 
+  ] ;
 
 // Função criada e add ao HTML (atributo "onclick") para ser executada ao clicar no botão. 
 function gerarMensagem() {
   
   //gerar número aleatório
-  const quantLista = textos.length
-  const numeroAleatorio = Math.floor(Math.random()*quantLista)
+  const quantLista = textos.length;
+  const numeroAleatorio = Math.floor(Math.random()*quantLista);
 
-  //add o conteúdo ao HTML
-  elementoMensagem.innerHTML = textos[numeroAleatorio]
+  //add o conteúdo ao HTML e tornar visivel
+  containerMensagem.classList.remove("hide");
+  elementoMensagem.innerHTML = textos[numeroAleatorio];
+  novaMensagem = textos[numeroAleatorio];
+}
+
+  //copiar
+function copiar(){
+  alert("Mensagem copiada com sucesso!");
+  navigator.clipboard.writeText(novaMensagem);
 }
