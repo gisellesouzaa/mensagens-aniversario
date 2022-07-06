@@ -20,17 +20,6 @@
 - [ ] Tratativa de erros no android
 
 ---
-### Tecnológias
-
-As seguintes ferramentas foram usadas na construção do projeto:
-
-<ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Javascript</li>
-</ul>
-
----
 ### Link
 
 <p style="font-size: 12px">
