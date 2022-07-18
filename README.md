@@ -44,7 +44,7 @@
 
 
 ### Autor
-<img alt="Giselle Souza" title="Giselle Souza" src="https://github.com/giselle-souza.png" height="100" width="100"/>
+<img alt="Giselle Souza" title="Giselle Souza" src="https://github.com/gisellesouzaa.png" height="100" width="100"/>
 
 Feito com ❤️ por Giselle Souza. 👋,
 <br>
