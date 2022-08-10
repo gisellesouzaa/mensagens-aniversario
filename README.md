@@ -23,7 +23,7 @@
 ### Link
 
 <p style="font-size: 12px">
-  <a href="https://giselle-souza.github.io/mensagens-aniversario/" target="_blank">Clique aqui</a> para testar o site!</p>
+  <a href="https://gisellesouzaa.github.io/mensagens-aniversario/" target="_blank">Clique aqui</a> para testar o site!</p>
 
 ---
 
