@@ -38,6 +38,13 @@ function gerarMensagem() {
 
   //copiar
 function copiar(){
-  alert("Mensagem copiada com sucesso!");
+  alert("Mensagem copiada no celular com sucesso!");
   navigator.clipboard.writeText(novaMensagem);
+
+
+  novaMensagem.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+
+
+
 }
